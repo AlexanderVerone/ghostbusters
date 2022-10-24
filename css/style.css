@@ -53,8 +53,12 @@ body {
   color: #363636;
   margin-right: 18px;
 }
+.navigation-link:hover {
+  color: #5671f6;
+}
 .button-group {
   height: 100%;
+  display: flex;
 }
 .button {
   height: 100%;
@@ -68,6 +72,12 @@ body {
   background-color: #ffffff;
   padding: 0 34px;
   border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  margin: 0;
+}
+.sign-up:hover {
+  color: #ffffff;
+  background-color: #5671f6;
 }
 .login {
   padding: 0 50px;
@@ -76,6 +86,10 @@ body {
   color: #ffffff;
   background-color: #5671f6;
   border: none;
+}
+.login:hover {
+  color: #5671f6;
+  background-color: #ffffff
 }
 .mobile-buttons {
   display: none;
